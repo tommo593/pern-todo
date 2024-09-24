@@ -32,7 +32,7 @@ const InputTodo = () => {
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />
-        <button className="bg-slate-800 px-4 py-2 rounded border-hidden">
+        <button className="bg-slate-800 hover:bg-slate-600 active:bg-slate-900 px-4 rounded border-hidden">
           Add
         </button>
       </form>
