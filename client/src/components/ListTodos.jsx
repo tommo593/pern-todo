@@ -31,7 +31,7 @@ const ListTodos = () => {
 
   return (
     <div className="mt-4 flex justify-center">
-      <table class="table">
+      <table className="table-auto">
         <thead>
           <tr>
             <th>Description</th>
@@ -39,9 +39,9 @@ const ListTodos = () => {
             <th>Delete</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="border-y">
           {todos.map((todo) => (
-            <tr key={todo.todo_id}>
+            <tr key={todo.todo_id} className="border-y">
               <td>{todo.description}</td>
               <td>
                 <EditTodo todo={todo} />
