@@ -28,7 +28,7 @@ const InputTodo = () => {
       >
         <input
           type="text"
-          className="bg-slate-100 rounded text-black"
+          className="bg-slate-300 rounded text-black"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />

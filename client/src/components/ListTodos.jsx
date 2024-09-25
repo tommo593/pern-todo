@@ -30,8 +30,8 @@ const ListTodos = () => {
   }, []);
 
   return (
-    <div className="flex justify-center">
-      <table>
+    <div className="mt-4 flex justify-center">
+      <table class="table">
         <thead>
           <tr>
             <th>Description</th>
