@@ -25,6 +25,7 @@ const EditTodo = ({ todo }) => {
     <div>
       <button
         type="button"
+        className="px-4 rounded bg-blue-600 hover:bg-blue-400 active:bg-blue-900"
         data-bs-toggle="modal"
         data-bs-target={`#id${todo.todo_id}`}
         onClick={() => setDescription(todo.description)}
@@ -56,6 +57,7 @@ const EditTodo = ({ todo }) => {
             <div class="modal-footer">
               <button
                 type="button"
+                className="px-2 rounded bg-yellow-400 hover:bg-yellow-200 active:bg-yellow-600"
                 data-bs-dismiss="modal"
                 onClick={(e) => updateDescription(e)}
               >
@@ -63,6 +65,7 @@ const EditTodo = ({ todo }) => {
               </button>
               <button
                 type="button"
+                className="px-2 rounded bg-red-600 hover:bg-red-400 active:bg-red-900"
                 data-bs-dismiss="modal"
                 onClick={() => setDescription(todo.description)}
               >
