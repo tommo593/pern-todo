@@ -28,11 +28,11 @@ const InputTodo = () => {
       >
         <input
           type="text"
-          className="bg-slate-300 rounded text-black"
+          className="w-80 mt-8 bg-slate-300 rounded text-black"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />
-        <button className="bg-slate-800 hover:bg-slate-600 active:bg-slate-900 px-4 rounded border-hidden">
+        <button className="bg-slate-800 hover:bg-slate-600 active:bg-slate-900 mt-8 p-2 px-4 rounded border-hidden">
           Add
         </button>
       </form>
