@@ -54,10 +54,10 @@ const EditTodo = ({ todo }) => {
               />
             </div>
 
-            <div class="modal-footer">
+            <div className="flex flex-row justify-end gap-4 px-3 pb-3">
               <button
                 type="button"
-                className="px-2 rounded bg-yellow-400 hover:bg-yellow-200 active:bg-yellow-600"
+                className="px-2 rounded bg-yellow-400 hover:bg-yellow-200 active:bg-yellow-600 text-black"
                 data-bs-dismiss="modal"
                 onClick={(e) => updateDescription(e)}
               >
